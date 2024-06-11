@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ANKIT CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <blockquote>
-        <h1>Coding for SEE</h1>
-        <p>
-          Lorem ipsum dolor sit
-           amet consectetur adipisicing elit. Deserunt
-            magnam autem eligendi ex quae mollitia, quo et
-             accusantium porro quis esse dolor earum nemo
-              praesentium sint? Voluptas unde modi 
-              accusantium?
+<div class="calculator">
+    <div class="display">
+        <input type="text" id="result" disabled>
+        <div class="buttons">
+          <button onclick="clearResult('C')">C</button>
+          <button onclick="deleteLast('DEL')">DEL</button>
+          <button onclick="sidduAppend('+')">+</button>
+          <button onclick="sidduAppend('-')">-</button>
+          <button onclick="sidduAppend('*')">*</button>
+          <button onclick="sidduAppend('/')">/</button>
+          <button onclick="sidduAppend('7')">7</button>
+          <button onclick="sidduAppend('8')">8</button>
+          <button onclick="sidduAppend('9')">9</button>
+          <button onclick="sidduAppend('4')">4</button>
+          <button onclick="sidduAppend('5')">5</button>
+          <button onclick="sidduAppend('6')">6</button>
+          <button onclick="sidduAppend('1')">1</button>
+          <button onclick="sidduAppend('2')">2</button>
+          <button onclick="sidduAppend('3')">3</button>
+          <button onclick="sidduAppend('0')">0</button>
+          <button onclick="sidduAppend('.')">.</button>
+          <button onclick="displayResult()">=</button>
+          
+          
+          
+        </div>
+    </div>
+<script src="./custom.js"></script>
 
-
-        </p>
-    </blockquote>
+    
 </body>
 </html>
